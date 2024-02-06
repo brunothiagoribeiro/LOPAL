@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 09:33:40 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjA5OjAyOjM3ICI7MjI1Ng=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjA5OjMzOjQwICI7MTsyMzYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite o numero a:&quot;" newline="True"/>
+            <input variable="(a)"/>
+            <output expression="&quot;digite o numero b:&quot;" newline="True"/>
+            <input variable="(b)"/>
+            <output expression="&quot;digite o numero c:&quot;" newline="True"/>
+            <input variable="(c)"/>
+            <output expression="&quot;digite o numero d:&quot;" newline="True"/>
+            <input variable="(d)"/>
+            <assign variable="soma" expression="a + b + c + d"/>
+            <output expression="&quot;A soma dos numeros e igual a: &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

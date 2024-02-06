@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 12:33:14 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjEyOjE1OjA0ICI7MjI0OA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjEyOjMzOjE0ICI7MTsyMzU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um numero: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero&gt;5.5">
+                <then>
+                    <output expression="&quot;E maior&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="numero&lt;5.5">
+                        <then>
+                            <output expression="&quot;E menor&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="numero = 5.5">
+                                <then>
+                                    <output expression="&quot;E igual&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

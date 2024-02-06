@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 03:02:51 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjAxOjM0OjE3ICI7MjI1MQ=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjAzOjAyOjUxICI7NTsyMzU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="xegg, xbacon, xsalada, xfrango, xpeixe" type="String" array="False" size=""/>
+            <declare name="escolha" type="String" array="False" size=""/>
+            <output expression="&quot;Temos xbacon,xegg,xsalada,xfrango,xpeixe&quot;" newline="True"/>
+            <output expression="&quot;Qual lanche voc&#234; quer ?&quot;" newline="True"/>
+            <input variable="escolha"/>
+            <declare name="pre&#231;o" type="Real" array="False" size=""/>
+            <if expression="escolha==&quot;xegg&quot;">
+                <then>
+                    <output expression="&quot;12.00&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="escolha==&quot;xbacon&quot;">
+                        <then>
+                            <output expression="15.00" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="escolha==&quot;xsalada&quot;">
+                                <then>
+                                    <output expression="11.00" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="escolha=&quot;xfrango&quot;">
+                                        <then>
+                                            <output expression="19.00" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="escolha==&quot;xpeixe&quot;">
+                                                <then>
+                                                    <output expression="17.00" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

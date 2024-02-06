@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 12:07:00 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjEwOjQ1OjI1ICI7MjI1Mg=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE4OzIwMjQtMDItMDY7IjEyOjA3OjAwICI7MTA7MjQwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o valor do raio? &quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="area" expression="3.14 * raio^2"/>
+            <output expression="&quot;A area do circulo &#233;: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
