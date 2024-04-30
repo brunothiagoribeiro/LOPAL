@@ -1,0 +1,20 @@
+
+import java.util.Scanner;
+
+public class Main{
+public static void main(String[] args){
+    Scanner leia = new Scanner (System.in);
+    int x = 0;
+    int y = 0;
+    System.out.print("Qual o valor de x ?");
+    x = leia.nextInt();
+    System.out.print("Qual o valor de y? ");
+    y = leia.nextInt();
+    if(x > y){
+        System.out.println("x é maior que y");
+    }
+    else{
+        System.out.println("x nao é maior que y");
+    }
+  }
+}
