@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+       Scanner Sc = new Scanner (System.in);
+       
+       //Declaration of Variables
+       int[] numbers = new int[10];
+       float productodd = 0; //For Odd Number 
+       int productpair = 1;  //For Pair Number 
+       
+       //For Numbers
+       System.out.println("Enter the ten numbers: ");
+       for(int i = 0; i < numbers.length; i++){
+           numbers[i] = Sc.nextInt();
+       
+       //Separation of Pair and Odd Numbers
+           if(numbers[i] % 2 == 0){
+            
+        //Multiplication of Pair Numbers       
+          productpair *= numbers[i];
+         }
+         else{
+             
+        //Sum of Odd Numbers
+          productodd += numbers[i];
+         }
+       
+       }
+       //Result of Sum and Multiplication
+        System.out.print("The multiplication of pair numbers is: " + productpair + "\n");
+        System.out.print("The sum of odd numbers is: " + productodd);
+     }
+   }

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        //Declaration of Variables
+        int[] numbers = new int[5];
+        
+        // For Vectors
+        System.out.println("Enter the 5 numbers:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("What is the value of the index " + i + "?");
+            numbers[i] = sc.nextInt();
+        }
+        // For Inverted Vectors 
+        System.out.println("Enter the 5 numbers");
+        for (int in = 4; in < numbers.length; in--) {
+           System.out.println("What is the value of the inverse index " + in + "?");
+           numbers[in] = sc.nextInt();
+           if(in == 0){
+             break;
+           }
+        }
+     }
+  }
